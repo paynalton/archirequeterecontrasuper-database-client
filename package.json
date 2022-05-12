@@ -1,0 +1,34 @@
+{
+  "name": "archirequeterecontrasuper-database-client",
+  "version": "0.0.0",
+  "description": "Universal client for database managment",
+  "main": "build/main.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paynalton/archirequeterecontrasuper-database-client.git"
+  },
+  "keywords": [
+    "database",
+    "mysql",
+    "sql",
+    "mariadb",
+    "sqlite",
+    "postgres",
+    "manager",
+    "client"
+  ],
+  "author": "Paynalton",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/paynalton/archirequeterecontrasuper-database-client/issues"
+  },
+  "homepage": "https://github.com/paynalton/archirequeterecontrasuper-database-client#readme",
+  "devDependencies": {
+    "electron": "^18.2.3",
+    "typescript": "^4.6.4"
+  }
+}
